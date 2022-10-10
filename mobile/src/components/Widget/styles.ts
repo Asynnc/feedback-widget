@@ -9,11 +9,12 @@ export const styles = StyleSheet.create({
         backgroundColor: theme.colors.brand,
         shadowColor: '#000',
         position: 'absolute',
-        right: 16,
-        bottom: getBottomSpace() + 16,
+        right: 20,
+        bottom: getBottomSpace() + 25,
         justifyContent: 'center',
         alignItems: 'center',
-        borderRadius: 24
+        borderRadius: 24,
+        elevation: 5
     },
     modal: {
         backgroundColor: theme.colors.surface_primary,

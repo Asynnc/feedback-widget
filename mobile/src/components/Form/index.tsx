@@ -4,7 +4,8 @@ import {
     Text,
     TextInput,
     Image,
-    TouchableOpacity
+    TouchableOpacity,
+    Alert
 } from 'react-native'
 
 import * as FileSystem from 'expo-file-system'
@@ -19,7 +20,6 @@ import { Button } from '../../components/Button'
 import { feedbackTypes } from '../../utils/feedbackTypes'
 import { styles } from './styles'
 import { theme } from '../../theme'
-
 interface Props {
     feedbackType: FeedbackType
     onFeedbackCanceled: () => void
